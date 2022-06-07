@@ -58,7 +58,7 @@ interface MessengerApiService {
     companion object Factory {
         private var service: MessengerApiService? = null
         private val AWS_URL =
-            "http://messengerapi-env-1.eba-qipnct7i.us-east-2.elasticbeanstalk.com"
+            "https://messenger-gnu.herokuapp.com/"
 
         fun getInstance(): MessengerApiService {
             if (service == null) {
